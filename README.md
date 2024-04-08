@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# init-saas
+
+init-saas aims to eliminate redundant tasks, allowing developers to accelerate their development pace and allocate more time to innovation and differentiation.
+
+## Motivation
+
+Many SaaS projects share common requirements such as Authentication, Authorization, localization, payment, and more. After encountering these similarities across multiple projects, it became evident that creating a template would significantly streamline the development process.
+
+## Features
+
+- **Authentication & Authorization**: User authentication and authorization mechanisms to secure your application.
+- **Multi-tenancy Support**: Ability to manage multiple tenants within a single instance of the application.
+- **Localization**: Support for multiple languages and locales, enabling global accessibility.
+- **File Upload**: Seamless file uploading functionality for handling user-generated content.
+- **Stripe Integration**: Integration with Stripe for handling subscription-based pricing models and payments.
+
+More to come
+
+## Tools Used
+
+- **Next.js**: A React framework for building server-side rendered and static web applications.
+- **Prisma**: Modern database access toolkit for Node.js and TypeScript, offering type-safe database queries and migrations.
+- **PostgreSQL**: Powerful open-source relational database management system for storing and managing data.
+- **Tailwind CSS**: Utility-first CSS framework for creating custom designs without having to leave your HTML.
+- **Shadcn UI**: UI component library for React, offering pre-designed components to enhance the user interface of your application.
 
 ## Getting Started
 
-First, run the development server:
+To get started with init-saas, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the Repository**: Clone the init-saas repository to your local machine.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```
+   git clone https://github.com/your-username/init-saas.git
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Install Dependencies**: Navigate to the project directory and install the necessary dependencies.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```
+   cd init-saas
+   npm install
+   ```
 
-## Learn More
+3. **Configuration**: Customize the configuration files according to your application requirements, including database settings, API keys, etc.
 
-To learn more about Next.js, take a look at the following resources:
+4. **Run the Application**: Start the development server and launch the application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```
+   npm start
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. **Explore and Customize**: Explore the project structure and customize the codebase to add your unique features and functionalities.
 
-## Deploy on Vercel
+For more detailed instructions, refer to the documentation provided in the repository.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions are welcome! If you have any ideas, suggestions, or improvements for init-saas, feel free to open an issue or submit a pull request. Together, we can make init-saas even more powerful and versatile.
+
+## License
+
+init-saas is licensed under the [MIT License](LICENSE).
+
+---
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+init-saas - Accelerate your micro-SaaS development journey.
